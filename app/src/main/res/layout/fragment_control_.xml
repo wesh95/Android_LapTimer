@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wesh9.hw2.Control_Frag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="00:00:00"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/currTime"
+                />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="STArt"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:background="#50d418"
+                android:id="@+id/start"
+                android:onClick="onClick"
+                />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="lap"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:background="#d4cb18"
+                android:id="@+id/lap"
+                android:onClick="onClick"
+                />
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Reset"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:background="#d41825"
+                android:id="@+id/reset"
+                android:onClick="onClick"
+                />
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
