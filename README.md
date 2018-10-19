@@ -13,9 +13,13 @@ This Application explores the topic of handling Android lifecycle events. The ta
 5. Clicking the lap button will add one timestamp to the list screen. The user can record multiple timestamps, with an index in front of each timestamp, e.g.
 
 00:00:10
+
 00:01:00
+
 00:02:20
+
 ...
+
 Each time record should take a single line.
 
  6. Clicking the reset button will reset everything in the both screens. The timer will be reset to 00:00:00, The timestamp list on the list screen must be cleared. After resetting the app, the user can start another round of time counting and recording.
